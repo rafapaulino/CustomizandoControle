@@ -20,6 +20,7 @@
 		6A24C0471614994C00CAAA58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A24C0281614994B00CAAA58 /* Foundation.framework */; };
 		6A24C04F1614994C00CAAA58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A24C04D1614994C00CAAA58 /* InfoPlist.strings */; };
 		6A24C0521614994C00CAAA58 /* CustomizandoControleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24C0511614994C00CAAA58 /* CustomizandoControleTests.m */; };
+		6A24C05D1614996700CAAA58 /* CustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24C05C1614996700CAAA58 /* CustomSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		6A24C04E1614994C00CAAA58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A24C0501614994C00CAAA58 /* CustomizandoControleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomizandoControleTests.h; sourceTree = "<group>"; };
 		6A24C0511614994C00CAAA58 /* CustomizandoControleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomizandoControleTests.m; sourceTree = "<group>"; };
+		6A24C05B1614996700CAAA58 /* CustomSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSlider.h; sourceTree = "<group>"; };
+		6A24C05C1614996700CAAA58 /* CustomSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		6A24C0171614994B00CAAA58 = {
 			isa = PBXGroup;
 			children = (
+				6A24C05B1614996700CAAA58 /* CustomSlider.h */,
+				6A24C05C1614996700CAAA58 /* CustomSlider.m */,
 				6A24C02C1614994B00CAAA58 /* CustomizandoControle */,
 				6A24C04A1614994C00CAAA58 /* CustomizandoControleTests */,
 				6A24C0251614994B00CAAA58 /* Frameworks */,
@@ -261,6 +266,7 @@
 				6A24C0331614994B00CAAA58 /* main.m in Sources */,
 				6A24C0371614994B00CAAA58 /* AppDelegate.m in Sources */,
 				6A24C03D1614994B00CAAA58 /* ViewController.m in Sources */,
+				6A24C05D1614996700CAAA58 /* CustomSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
